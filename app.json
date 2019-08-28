@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Pregxas",
+    "slug": "pregxas-mobile",
+    "privacy": "unlisted",
+    "sdkVersion": "34.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pregxas.mobile"
+    },
+    "android": {
+      "package": "com.pregxas.mobile"
+    },
+    "extra": {
+      "apiEndpoint": "http://192.168.86.49:8090/",
+      "showAds": true,
+      "adMobBannerId": "ca-app-pub-5555519429647674/4758053541"
+    }
+  }
+}
